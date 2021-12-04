@@ -1,0 +1,107 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_d372992c"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_2a3fc8d5"
+  },
+  {
+    "name": "blog-details",
+    "path": "/blog-details",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/blog-details.vue",
+    "chunkName": "pages/blog-details",
+    "_name": "_08044eca"
+  },
+  {
+    "name": "blog-left-sidebar",
+    "path": "/blog-left-sidebar",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/blog-left-sidebar.vue",
+    "chunkName": "pages/blog-left-sidebar",
+    "_name": "_60054a3e"
+  },
+  {
+    "name": "blog-right-sidebar",
+    "path": "/blog-right-sidebar",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/blog-right-sidebar.vue",
+    "chunkName": "pages/blog-right-sidebar",
+    "_name": "_2f5ee0b3"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_21e4553d"
+  },
+  {
+    "name": "login-register",
+    "path": "/login-register",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/login-register.vue",
+    "chunkName": "pages/login-register",
+    "_name": "_4816217a"
+  },
+  {
+    "name": "our-clients",
+    "path": "/our-clients",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/our-clients.vue",
+    "chunkName": "pages/our-clients",
+    "_name": "_6513e7a4"
+  },
+  {
+    "name": "our-team",
+    "path": "/our-team",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/our-team.vue",
+    "chunkName": "pages/our-team",
+    "_name": "_ae21ec1e"
+  },
+  {
+    "name": "our-working-process",
+    "path": "/our-working-process",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/our-working-process.vue",
+    "chunkName": "pages/our-working-process",
+    "_name": "_3f9ca822"
+  },
+  {
+    "name": "project",
+    "path": "/project",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/project.vue",
+    "chunkName": "pages/project",
+    "_name": "_31215094"
+  },
+  {
+    "name": "project-details",
+    "path": "/project-details",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/project-details.vue",
+    "chunkName": "pages/project-details",
+    "_name": "_6beb6cab"
+  },
+  {
+    "name": "service",
+    "path": "/service",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/service.vue",
+    "chunkName": "pages/service",
+    "_name": "_a6f8b55c"
+  },
+  {
+    "name": "service-details",
+    "path": "/service-details",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/service-details.vue",
+    "chunkName": "pages/service-details",
+    "_name": "_67d34372"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/douglascustodio/Documents/GitHub/ferragensgaucho/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_9402e3a2"
+  }
+]
