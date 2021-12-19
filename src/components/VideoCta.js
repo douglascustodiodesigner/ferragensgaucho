@@ -23,10 +23,10 @@ class VideoCta extends Component{
                         <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
                             <div className="video-cta-content">
-                            <h4 className="video-cta-content__small-title">ABOUT US</h4>
-                            <h3 className="video-cta-content__title">We are Best construction in the world</h3>
-                            <p className="video-cta-content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-                            <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--round">CONTACT US</a>
+                            <h4 className="video-cta-content__small-title">Sobre Nós</h4>
+                            <h3 className="video-cta-content__title">Sobre Ferragens Gaucho</h3>
+                            <p className="video-cta-content__text">Fundada em julho de 2008, a Ferragens Gaúcho vem atuando no comercio varejista de ferragens e ferramentas, sendo a única empresa da cidade licenciada para fazer destinação final dos resíduos metálicos. Contando também com a compra e venda de sucatas diversas.</p>
+                            <a href={`${process.env.PUBLIC_URL}/about-us`} className="ht-btn ht-btn--round">Mais Sobre Nós</a>
                             </div>
                         </div>
                         <div className="col-lg-5 offset-lg-1 col-md-6">

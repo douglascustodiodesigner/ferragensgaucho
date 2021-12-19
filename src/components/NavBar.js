@@ -56,10 +56,7 @@ class NavBar extends Component{
                                 <div className="social-links social-links--white-topbar d-inline-block">
                                 <ul>
                                     <li><a href="//facebook.com"><i className="zmdi zmdi-facebook" /></a></li>
-                                    <li><a href="//twitter.com"><i className="zmdi zmdi-twitter" /></a></li>
-                                    <li><a href="//vimeo.com"><i className="zmdi zmdi-vimeo" /></a></li>
-                                    <li><a href="//linkedin.com"><i className="zmdi zmdi-linkedin-box" /></a></li>
-                                    <li><a href="//skype.com"><i className="zmdi zmdi-skype" /></a></li>
+                                    <li><a href="//instagram.com"><i className="zmdi zmdi-instagram" /></a></li>
                                 </ul>
                                 </div>
                             </div>
@@ -67,7 +64,7 @@ class NavBar extends Component{
                             <div className="col-lg-8">
                             {/* top bar right */}
                             <div className="top-bar-right-wrapper">
-                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">GET A QUOTE</a>
+                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Obter uma cotação</a>
                             </div>
                             </div>
                         </div>
@@ -93,8 +90,8 @@ class NavBar extends Component{
                                         <i className="zmdi zmdi-smartphone-android" />
                                         </div>
                                         <div className="header-info-single-item__content">
-                                        <h6 className="header-info-single-item__title">Phone</h6>
-                                        <p className="header-info-single-item__subtitle">98 9875 5968 54</p>
+                                        <h6 className="header-info-single-item__title">Telefone</h6>
+                                        <p className="header-info-single-item__subtitle">(65) 3308-1593 </p>
                                         </div>
                                     </div>
                                     <div className="header-info-single-item">
@@ -102,8 +99,9 @@ class NavBar extends Component{
                                         <i className="zmdi zmdi-home" />
                                         </div>
                                         <div className="header-info-single-item__content">
-                                        <h6 className="header-info-single-item__title">Address</h6>
-                                        <p className="header-info-single-item__subtitle">your address goes here</p>
+                                        <h6 className="header-info-single-item__title">Endereço</h6>
+                                        <p className="header-info-single-item__subtitle">Rua das Tulipas, n°255W,</p>
+                                        <p className="header-info-single-item__subtitlequebra">industrial Sul Nova Mutum- MT</p>
                                         </div>
                                     </div>
                                     </div>
@@ -127,35 +125,20 @@ class NavBar extends Component{
                                         <div className="header-navigation__nav position-static">
                                         <nav>
                                             <ul>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/home-one`}> HOME </Link>
+                                            <li>
+                                                <Link to={`${process.env.PUBLIC_URL}/home`}> Home </Link>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</Link></li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/services`}>SERVICE</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/services`}>Service Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Service Details Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Service Details Right Sidebar</Link></li>
-                                                </ul>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Sobre</Link></li>
+                                            <li>
+                                                <Link to={`${process.env.PUBLIC_URL}/services`}>Servços</Link>
                                             </li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/projects`} >PROJECT</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Project Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>Project Details</Link></li>
-                                                </ul>
+                                            <li>
+                                                <Link to={`${process.env.PUBLIC_URL}/projects`} >Estrutura</Link>
                                             </li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-right-sidebar`}>Blog Right Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`}>Blog Details Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</Link></li>
-                                                </ul>
+                                            <li>
+                                                <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog</Link>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT</Link> </li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Contato</Link> </li>
                                             </ul>
                                         </nav>
                                         </div>

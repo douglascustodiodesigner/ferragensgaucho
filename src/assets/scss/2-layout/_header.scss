@@ -895,6 +895,15 @@
     
     &__subtitle{
         font-size: 16px;
+        line-height: 1;
+        margin-bottom: 0;
+        color: #737373;
+    }
+    
+    &__subtitlequebra{
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 0;
         color: #737373;
     }
 }

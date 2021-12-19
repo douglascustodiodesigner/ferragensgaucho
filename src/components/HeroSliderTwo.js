@@ -25,8 +25,8 @@ class HeroSliderTwo extends Component{
         }
 
         let data = [
-            {bgImg: 'slider3.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
-            {bgImg: 'slider2.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
+            {bgImg: 'slider3.jpg', sliderTitle: 'Logística e Qualidade', sliderSubtitle: 'Trabalhamos para garantir uma entrega eficaz, com frota própria entregamos de forma rápida e segura, produtos de qualidade comprovada através dos seus certificados de gestão de qualidade. ', btnLink: 'contact-us'},
+            {bgImg: 'slider2.jpg', sliderTitle: 'Certificados de gestão de qualidade', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
             {bgImg: 'slider1.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'}
         ];
 

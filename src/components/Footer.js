@@ -78,14 +78,14 @@ class Footer extends Component {
                             </a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Projects</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>Projetos</a>
                           </li>
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>Careers</a>
                           </li>
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
-                              Contact Us
+                              Contato
                             </a>
                           </li>
                         </ul>

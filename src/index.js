@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./assets/scss/style.scss";
 import HomeOne from "./HomeOne";
-import HomeTwo from "./HomeTwo";
+import Home from "./Home";
 import HomeThree from "./HomeThree";
 import About from "./pages/About";
 import Services from "./service/Services";
@@ -30,7 +30,7 @@ class Root extends Component {
           <Route
             exact
             path={`${process.env.PUBLIC_URL}/`}
-            component={HomeOne}
+            component={Home}
           />
 
           <Route
@@ -40,8 +40,8 @@ class Root extends Component {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/home-two`}
-            component={HomeTwo}
+            path={`${process.env.PUBLIC_URL}/home`}
+            component={Home}
           />
           <Route
             exact
