@@ -6,7 +6,7 @@ import "./assets/scss/style.scss";
 import HomeOne from "./HomeOne";
 import Home from "./Home";
 import HomeThree from "./HomeThree";
-import About from "./pages/About";
+import Sobre from "./pages/Sobre";
 import Services from "./service/Services";
 import ServiceDetailsLeftSidebar from "./service/ServiceDetailsLeftSidebar";
 import ServiceDetailsRightSidebar from "./service/ServiceDetailsRightSidebar";
@@ -50,8 +50,8 @@ class Root extends Component {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/about-us`}
-            component={About}
+            path={`${process.env.PUBLIC_URL}/sobre`}
+            component={Sobre}
           />
           <Route
             exact

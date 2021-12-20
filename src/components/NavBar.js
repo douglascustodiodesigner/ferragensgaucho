@@ -128,15 +128,12 @@ class NavBar extends Component{
                                             <li>
                                                 <Link to={`${process.env.PUBLIC_URL}/home`}> Home </Link>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Sobre</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/sobre`}>Sobre</Link></li>
                                             <li>
-                                                <Link to={`${process.env.PUBLIC_URL}/services`}>Servços</Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/services`}>Produtos</Link>
                                             </li>
                                             <li>
                                                 <Link to={`${process.env.PUBLIC_URL}/projects`} >Estrutura</Link>
-                                            </li>
-                                            <li>
-                                                <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog</Link>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Contato</Link> </li>
                                             </ul>

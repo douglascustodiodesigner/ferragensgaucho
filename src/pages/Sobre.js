@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import FeatureIcon from "../components/FeatureIcon";
 import Funfact from "../components/Funfact";
-import TeamMemberGrid from "../components/TeamMemberGrid";
 import TestimonialSlider from "../components/TestimonialSlider";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
 import MobileMenu from "../components/MobileMenu";
 import ModalVideo from "react-modal-video";
-class About extends Component {
+class Sobre extends Component {
   constructor() {
     super();
     this.state = {
@@ -39,12 +38,12 @@ class About extends Component {
             <div className="row">
               <div className="col">
                 <div className="page-banner text-center">
-                  <h1>About Us</h1>
+                  <h1>Sobre Nós</h1>
                   <ul className="page-breadcrumb">
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li>About Us</li>
+                    <li>Sobre Nós</li>
                   </ul>
                 </div>
               </div>
@@ -76,20 +75,16 @@ class About extends Component {
                 </div>
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-content-two">
-                    <h3>Welcome to Castro</h3>
-                    <h1>50 Years of Experience in Industry</h1>
+                    <h3>Bem vindo</h3>
+                    <h1>Sobre Ferragens Gaúcho</h1>
                     <h4>
-                      We are ready to build your dream home Lorem ipsum dolor
-                      sit amet, consectetur adipisicing elit. Dolorum, beatae.
+                    Fundada em julho de 2008, a Ferragens Gaúcho vem atuando no comercio varejista de ferragens e ferramentas, 
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam repudiandae odit dolorum quis laudantium impedit
-                      beatae perferendis natus, hic libero sed atque quibusdam
-                      possimus error, voluptate est molestiae doloremque
-                      necessitatibus illum rerum sunt! Ad sunt obcaecati
-                      voluptatem sint sequi quos, qui non deleniti a
-                      praesentium, sapiente accusantium odit.
+                    sendo a única empresa da cidade licenciada para fazer destinação final dos resíduos metálicos. Contando também com a compra e venda de sucatas diversas.
+                    Sua instalação conta com uma sede própria totalizando área de **** m2, dispõe de uma equipe capacitada e pronta para prestar o melhor atendimento.
+                    Temos como objetivo atender a necessidade de todos com muita dedicação assim obtendo e gerando resultados positivos 
+
                     </p>
                     <a
                       href="services"
@@ -161,9 +156,6 @@ class About extends Component {
           {/* Fun fact */}
           <Funfact />
 
-          {/* Team member */}
-          <TeamMemberGrid />
-
           {/* Testimonial Slider */}
           <TestimonialSlider />
 
@@ -181,4 +173,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Sobre;

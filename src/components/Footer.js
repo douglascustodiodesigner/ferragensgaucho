@@ -57,44 +57,16 @@ class Footer extends Component {
                             />
                           </a>
                         </div>
-                        <div className="footer-desc">
-                          Lorem ipsum dolor sit amet consect adipisici elit, sed
-                          do eiusmod tempor incididuk ut labore et dolore magna
-                          aliqua Ut enim
-                        </div>
                       </div>
                     </div>
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
-                      <div className="footer-widget">
-                        <h4 className="footer-widget__title">USEFUL LINKS</h4>
-                        <ul className="footer-widget__navigation">
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Company News
-                            </a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Projetos</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Careers</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Contato
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                      
                     </div>
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
                       <div className="footer-widget">
-                        <h4 className="footer-widget__title">USEFUL LINKS</h4>
+                        <h4 className="footer-widget__title">LINKS ÚTEIS</h4>
                         <ul className="footer-widget__navigation">
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
@@ -123,20 +95,23 @@ class Footer extends Component {
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
                       <div className="footer-widget mb-0">
-                        <h4 className="footer-widget__title">CONTACT US</h4>
+                        <h4 className="footer-widget__title">CONTATOS</h4>
                         <div className="footer-widget__content">
                           <p className="address">
-                            Your address goes here, street Crossroad123.
+                            Rua das Tulipas, n°255W, industrial Sul Nova Mutum- MT
                           </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>99 55 66 88 526
+                              <span>Telefone:</span>(65)33081593
                             </li>
                             <li>
-                              <span>F:</span>55 44 77 62
+                              <span>WhatsApp:</span>(65)996819194
                             </li>
                             <li>
-                              <span>E:</span>cons@email.com
+                              <span>Gaúcho:</span>(65)992884775   
+                            </li>
+                            <li>
+                              <span>Email:</span>contato@ferragensgaucho.com.br
                             </li>
                           </ul>
                         </div>
@@ -150,8 +125,12 @@ class Footer extends Component {
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
               <p className="copyright-text">
-                &copy; Castro 2021 Made With <i className="fa fa-heart"></i> By
-                HasThemes
+                &copy; Ferragens Gaucho 2022 feito com <i className="fa fa-heart"></i> Por Douglas Custodio.
+                <img
+                              src="assets/img/logo/"
+                              className="img-fluid"
+                              alt=""
+                            />
               </p>
             </div>
           </div>

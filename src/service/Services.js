@@ -10,7 +10,7 @@ class Services extends Component {
         pageLink: "service-details-left-sidebar",
         img: "service1.jpg",
         iconClass: "flaticon-002-welding",
-        serviceTitle: "Land Minning",
+        serviceTitle: "Alumínio",
         serviceSubtitle:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
       },

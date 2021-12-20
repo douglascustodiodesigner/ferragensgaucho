@@ -33,10 +33,14 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {img: 'service1.jpg', serviceTitle: 'Land Minning', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service2.jpg', serviceTitle: 'Work Management', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service3.jpg', serviceTitle: 'Material Engineering', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', serviceTitle: 'Power and Energy', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem1.png', serviceTitle: 'Alumínio', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem2.png', serviceTitle: 'Barra Chata', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem3.png', serviceTitle: 'Bucha de Ferro', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem4.png', serviceTitle: 'Bronze', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem5.png', serviceTitle: 'Contoneira', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem6.png', serviceTitle: 'Chapas', serviceExcerpt: 'Ferro Trefilado, Ferro Fundido, Ferro Mecânico, Latão.', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem7.png', serviceTitle: 'Tubos', serviceExcerpt: 'Espessura em MM- Peso Teórico (barra de 6 metros), Tubos Quadrados, Tubos Retangular.', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem8.png', serviceTitle: 'Tecnil', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -55,7 +59,7 @@ class ServiceGridSlider extends Component{
                         <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`}>{val.serviceTitle}</a>
                         </h3>
                         <p className="subtitle">{val.serviceExcerpt}</p>
-                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`} className="see-more-link">SEE MORE</a>
+                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`} className="see-more-link">Obter uma Cotação</a>
                     </div>
                     </div>
                 </div>
@@ -69,7 +73,7 @@ class ServiceGridSlider extends Component{
                     <div className="row">
                         <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                            <h2 className="section-title mb-0">Latest Projects <span className="title-icon" /></h2>
+                            <h2 className="section-title mb-0"> Produtos <span className="title-icon" /></h2>
                         </div>
                         </div>
                     </div>

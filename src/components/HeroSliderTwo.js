@@ -26,8 +26,8 @@ class HeroSliderTwo extends Component{
 
         let data = [
             {bgImg: 'slider3.jpg', sliderTitle: 'Logística e Qualidade', sliderSubtitle: 'Trabalhamos para garantir uma entrega eficaz, com frota própria entregamos de forma rápida e segura, produtos de qualidade comprovada através dos seus certificados de gestão de qualidade. ', btnLink: 'contact-us'},
-            {bgImg: 'slider2.jpg', sliderTitle: 'Certificados de gestão de qualidade', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
-            {bgImg: 'slider1.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'}
+            {bgImg: 'slider2.jpg', sliderTitle: 'Materiais de Qualidade para sua obra', sliderSubtitle: 'Aqui na Ferragens Gaúcho, você irá encontrar diversas peças de ferragens de ótima qualidade para poder equipar sua obra! 🏗️🔧', btnLink: 'contact-us'},
+            {bgImg: 'slider1.jpg', sliderTitle: 'Logística Própria e segura', sliderSubtitle: 'Você sabia que temos uma logística própria? 🚚 Temos caminhões próprios para fazer o transporte com total segurança! ', btnLink: 'contact-us'}
         ];
 
         let DataList = data.map((val, i)=>{
@@ -41,7 +41,7 @@ class HeroSliderTwo extends Component{
                                 <div className="hero-slider__content m-auto text-center">
                                     <h2 className="hero-slider__title">{val.sliderTitle}</h2>
                                     <p className="hero-slider__text">{val.sliderSubtitle}</p>
-                                    <a className="hero-slider__btn hero-slider__btn--style2" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}> GET START</a>
+                                    <a className="hero-slider__btn hero-slider__btn--style2" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}> Entre em Contato</a>
                                 </div>
                                 </div>
                             </div>
