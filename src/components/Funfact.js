@@ -15,10 +15,10 @@ class Funfact extends Component {
 
   render() {
     let data = [
-      { img: "funfact-project.png", countNum: 598, countTitle: "Projects" },
-      { img: "funfact-clients.png", countNum: 128, countTitle: "Clients" },
-      { img: "funfact-success.png", countNum: 114, countTitle: "Success" },
-      { img: "funfact-award.png", countNum: 109, countTitle: "Awards" }
+      { img: "funfact-project.png", countNum: 598, countTitle: "Serviços" },
+      { img: "funfact-clients.png", countNum: 128, countTitle: "Clientes" },
+      { img: "funfact-success.png", countNum: 114, countTitle: "Produtos e Serviços" },
+      { img: "funfact-award.png", countNum: 109, countTitle: "Avaliações" }
     ];
 
     let DataList = data.map((val, i) => {

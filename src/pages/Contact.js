@@ -21,12 +21,12 @@ class Contact extends Component {
             <div className="row">
               <div className="col">
                 <div className="page-banner text-center">
-                  <h1>Contact Us</h1>
+                  <h1>Nossos Contatos</h1>
                   <ul className="page-breadcrumb">
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li>Contact Us</li>
+                    <li>Contatos</li>
                   </ul>
                 </div>
               </div>
@@ -45,7 +45,7 @@ class Contact extends Component {
                   <div className="contact-map">
                     <iframe
                       title="google-map"
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d392436.93004030554!2d-105.13838587646829!3d39.7265847007123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1558429398879!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.8698563910566!2d-56.08908258527288!3d-13.846849590285997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93a029c27395aaf1%3A0x88629d6ff1d09b83!2sFerragens%20Ga%C3%BAcho!5e0!3m2!1spt-BR!2sbr!4v1639997267610!5m2!1spt-BR!2sbr"
                       allowFullScreen
                     ></iframe>
                   </div>
@@ -54,7 +54,7 @@ class Contact extends Component {
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="contact-information">
-                    <h3>Contact Information</h3>
+                    <h3>Informações de contato</h3>
                     <ul>
                       <li>
                         <span className="icon">
@@ -62,8 +62,7 @@ class Contact extends Component {
                         </span>
                         <span className="text">
                           <span>
-                            Stock Building, 125 Main Street 1st Lane, San
-                            Francisco, USA
+                          Rua das Tulipas, n°255W, Industrial Sul Nova Mutum- MT CEP: 78.450-000
                           </span>
                         </span>
                       </li>
@@ -72,8 +71,9 @@ class Contact extends Component {
                           <i className="ion-ios-telephone-outline" />
                         </span>
                         <span className="text">
-                          <a href="tel:1234567890">(001) 24568 365 987</a>
-                          <a href="tel:1234567890">(001) 65897 569 784</a>
+                          <a href="tel:6533081593 ">(65) 3308-1593 </a>
+                          <a href="tel:65996819194">(65) 9 9681 9194 - WhatsApp </a>
+                          <a href="tel:65992884775">(65) 9 9288 4775 – Gaúcho </a>
                         </span>
                       </li>
                       <li>
@@ -81,8 +81,7 @@ class Contact extends Component {
                           <i className="ion-ios-email-outline" />
                         </span>
                         <span className="text">
-                          <a href="mailto:info@example.com">info@example.com</a>
-                          <a href="mailto:info@example.com">info@example.com</a>
+                          <a href="contato@ferragensgaucho.com.br">contato@ferragensgaucho.com.br</a>
                         </span>
                       </li>
                     </ul>
@@ -90,32 +89,32 @@ class Contact extends Component {
                 </div>
                 <div className="col-lg-8 col-12">
                   <div className="contact-form">
-                    <h3>Leave Your Message</h3>
+                    <h3>Deixe sua mensagem</h3>
                     <form id="contact-form">
                       <div className="row row-10">
                         <div className="col-md-6 col-12 section-space--bottom--20">
                           <input
                             name="con_name"
                             type="text"
-                            placeholder="Your Name"
+                            placeholder="Seu nome"
                           />
                         </div>
                         <div className="col-md-6 col-12 section-space--bottom--20">
                           <input
                             name="con_email"
                             type="email"
-                            placeholder="Your Email"
+                            placeholder="Seu E-mail"
                           />
                         </div>
                         <div className="col-12">
                           <textarea
                             name="con_message"
-                            placeholder="Your Message"
+                            placeholder="Sua mensagem"
                             defaultValue={""}
                           />
                         </div>
                         <div className="col-12">
-                          <button>Send Message</button>
+                          <button>Enviar mensagem</button>
                         </div>
                       </div>
                     </form>

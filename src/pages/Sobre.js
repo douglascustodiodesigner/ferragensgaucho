@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
-import FeatureIcon from "../components/FeatureIcon";
 import Funfact from "../components/Funfact";
-import TestimonialSlider from "../components/TestimonialSlider";
-import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
 import MobileMenu from "../components/MobileMenu";
 import ModalVideo from "react-modal-video";
@@ -64,7 +61,7 @@ class Sobre extends Component {
                       <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
-                        videoId="OrS-93U4AYQ"
+                        videoId="O"
                         onClose={() => this.setState({ isOpen: false })}
                       />
                       <button onClick={this.openModal}>
@@ -90,7 +87,7 @@ class Sobre extends Component {
                       href="services"
                       className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
                     >
-                      Our Services
+                      Nossos Produtos
                     </a>
                   </div>
                 </div>
@@ -98,9 +95,6 @@ class Sobre extends Component {
             </div>
           </div>
           {/*About section end*/}
-
-          {/* Feature Icon */}
-          <FeatureIcon background="grey-bg" />
 
           {/*About section start*/}
           <div className="about-section section-space--inner--120">
@@ -119,7 +113,7 @@ class Sobre extends Component {
                 <div className="col-lg-6 col-12 order-3 order-lg-1">
                   <div className="about-content about-content-1">
                     <h1>
-                      <span>50</span>Years of Experience
+                      <span>13</span>Anos de experiência
                     </h1>
                     <p>
                       ligendi optio cumque nihil impedit quo minus id quod
@@ -144,7 +138,7 @@ class Sobre extends Component {
                       href={`${process.env.PUBLIC_URL}/contact-us`}
                       className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
                     >
-                      Contact us
+                      Entre em contato
                     </a>
                   </div>
                 </div>
@@ -155,12 +149,6 @@ class Sobre extends Component {
 
           {/* Fun fact */}
           <Funfact />
-
-          {/* Testimonial Slider */}
-          <TestimonialSlider />
-
-          {/* Brand logo */}
-          <BrandLogoSlider background="" />
         </div>
 
         {/* Footer */}
