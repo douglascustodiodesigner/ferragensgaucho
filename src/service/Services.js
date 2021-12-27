@@ -8,52 +8,25 @@ class Services extends Component {
     let data = [
       {
         pageLink: "service-details-left-sidebar",
-        img: "service1.jpg",
-        iconClass: "flaticon-002-welding",
-        serviceTitle: "Alumínio",
+        img: "Imagem9.png",
+        serviceTitle: "Oxicorte",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "service-details-left-sidebar",
-        img: "service2.jpg",
-        iconClass: "flaticon-004-walkie-talkie",
-        serviceTitle: "Work Management",
+        img: "Imagem10.png",
+        serviceTitle: "Plasma",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "service-details-left-sidebar",
-        img: "service3.jpg",
-        iconClass: "flaticon-015-cart",
-        serviceTitle: "Material Engineering",
+        img: "Imagem9.png",
+        serviceTitle: "Corte e Dobra",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-3.jpg",
-        iconClass: "flaticon-010-tank-1",
-        serviceTitle: "Power and Energy",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
-      },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-2.jpg",
-        iconClass: "flaticon-004-walkie-talkie",
-        serviceTitle: "Land Minning",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
-      },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-1.jpg",
-        iconClass: "flaticon-002-welding",
-        serviceTitle: "Work Management",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
-      }
     ];
 
     let Datalist = data.map((val, i) => {
@@ -73,9 +46,7 @@ class Services extends Component {
                   />
                 </a>
               </div>
-              <div className="icon">
-                <i className={val.iconClass} />
-              </div>
+
             </div>
             <div className="service-grid-item__content">
               <h3 className="title">
@@ -88,7 +59,7 @@ class Services extends Component {
                 href={`${process.env.PUBLIC_URL}/${val.pageLink}`}
                 className="see-more-link"
               >
-                SEE MORE
+                
               </a>
             </div>
           </div>

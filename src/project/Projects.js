@@ -8,59 +8,59 @@ class Project extends Component {
     let data = [
       {
         pageLink: "project-details",
-        img: "project-1.jpg",
-        projectTitle: "Land Minning",
+        img: "Imagem1.png",
+        projectTitle: "Alumínio",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "project-details",
-        img: "project-2.jpg",
-        projectTitle: "Work Management",
+        img: "Imagem2.png",
+        projectTitle: "Barra Chata",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "project-details",
-        img: "project-3.jpg",
-        projectTitle: "Material Engineering",
+        img: "Imagem3.png",
+        projectTitle: "Bucha de Ferro",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "project-details",
-        img: "project-4.jpg",
-        projectTitle: "Power and Energy",
+        img: "Imagem4.png",
+        projectTitle: "Broze",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "project-details",
-        img: "project-5.jpg",
-        projectTitle: "Land Minning",
+        img: "Imagem5.png",
+        projectTitle: "Cantoneira",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       },
       {
         pageLink: "project-details",
-        img: "project-6.jpg",
-        projectTitle: "Work Management",
+        img: "Imagem6.png",
+        projectTitle: "Chapas",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          "Ferro Trefilado, Ferro Fundido, Ferro Mecânico, Latão."
       },
       {
         pageLink: "project-details",
-        img: "project-7.jpg",
-        projectTitle: "Material Engineering",
+        img: "Imagem7.png",
+        projectTitle: "Tubos",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          "Espessura em MM- Peso Teórico (barra de 6 metros), Tubos Quadrados, Tubos Retangular."
       },
       {
         pageLink: "project-details",
-        img: "project-8.jpg",
-        projectTitle: "Power and Energy",
+        img: "Imagem8.png",
+        projectTitle: "Tecnil",
         projectSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
+          ""
       }
     ];
 
@@ -93,7 +93,7 @@ class Project extends Component {
                 href={`${process.env.PUBLIC_URL}/${val.pageLink}`}
                 className="see-more-link"
               >
-                SEE MORE
+                
               </a>
             </div>
           </div>
@@ -148,21 +148,15 @@ class Project extends Component {
                 <div className="col">
                   <ul className="page-pagination">
                     <li>
-                      <a href="/">
+                      <a href="/projects">
                         <i className="fa fa-angle-left" /> Prev
                       </a>
                     </li>
                     <li className="active">
-                      <a href="/">01</a>
+                      <a href="/projects">01</a>
                     </li>
                     <li>
-                      <a href="/">02</a>
-                    </li>
-                    <li>
-                      <a href="/">03</a>
-                    </li>
-                    <li>
-                      <a href="/">
+                      <a href="/projects">
                         <i className="fa fa-angle-right" /> Next
                       </a>
                     </li>
