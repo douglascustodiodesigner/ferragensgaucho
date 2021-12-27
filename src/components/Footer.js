@@ -70,23 +70,15 @@ class Footer extends Component {
                         <ul className="footer-widget__navigation">
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
-                              Our Services
+                             Nossos serviços
                             </a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Showcase</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Affliates</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>Mostruário</a>
                           </li>
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
-                              Disclaimer
-                            </a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Privacy Policy
+                            Política de Privacidade
                             </a>
                           </li>
                         </ul>
@@ -108,9 +100,6 @@ class Footer extends Component {
                               <span>WhatsApp:</span>(65)996819194
                             </li>
                             <li>
-                              <span>Gaúcho:</span>(65)992884775   
-                            </li>
-                            <li>
                               <span>Email:</span>contato@ferragensgaucho.com.br
                             </li>
                           </ul>
@@ -125,7 +114,7 @@ class Footer extends Component {
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
               <p className="copyright-text">
-                &copy; Ferragens Gaucho 2022 feito com <i className="fa fa-heart"></i> Por Douglas Custodio.
+                &copy; Ferragens Gaucho 2022 feito com <i className="fa fa-heart"></i> Por Agência Paulo G Marketing.
                 <img
                               src="assets/img/logo/"
                               className="img-fluid"

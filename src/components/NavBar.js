@@ -55,8 +55,8 @@ class NavBar extends Component{
                             <div className="top-bar-left-wrapper">
                                 <div className="social-links social-links--white-topbar d-inline-block">
                                 <ul>
-                                    <li><a href="//facebook.com"><i className="zmdi zmdi-facebook" /></a></li>
-                                    <li><a href="//instagram.com"><i className="zmdi zmdi-instagram" /></a></li>
+                                    <li><a href="https://www.facebook.com/ferragensgaucho/"><i className="zmdi zmdi-facebook" /></a></li>
+                                    <li><a href="https://www.instagram.com/ferragensgaucho.nm/"><i className="zmdi zmdi-instagram" /></a></li>
                                 </ul>
                                 </div>
                             </div>

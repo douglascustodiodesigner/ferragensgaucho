@@ -31,9 +31,14 @@ class ProjectSlider extends Component{
         };
         
         let data = [
-            {img: '1.jpg', sliderTitle: 'Construction Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Power and Energy', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Work Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
+            {img: 'Imagem1.png', serviceTitle: 'Alumínio', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem2.png', serviceTitle: 'Barra Chata', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem3.png', serviceTitle: 'Bucha de Ferro', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem4.png', serviceTitle: 'Bronze', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem5.png', serviceTitle: 'Contoneira', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem6.png', serviceTitle: 'Chapas', serviceExcerpt: 'Ferro Trefilado, Ferro Fundido, Ferro Mecânico, Latão.', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem7.png', serviceTitle: 'Tubos', serviceExcerpt: 'Espessura em MM- Peso Teórico (barra de 6 metros), Tubos Quadrados, Tubos Retangular.', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem8.png', serviceTitle: 'Tecnil', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
         ];
 
 
