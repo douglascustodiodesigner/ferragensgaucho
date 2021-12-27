@@ -7,21 +7,21 @@ class Services extends Component {
   render() {
     let data = [
       {
-        pageLink: "service-details-left-sidebar",
+        pageLink: "services",
         img: "Imagem9.png",
         serviceTitle: "Oxicorte",
         serviceSubtitle:
           ""
       },
       {
-        pageLink: "service-details-left-sidebar",
+        pageLink: "services",
         img: "Imagem10.png",
         serviceTitle: "Plasma",
         serviceSubtitle:
           ""
       },
       {
-        pageLink: "service-details-left-sidebar",
+        pageLink: "services",
         img: "Imagem9.png",
         serviceTitle: "Corte e Dobra",
         serviceSubtitle:

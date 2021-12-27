@@ -7,56 +7,56 @@ class Project extends Component {
   render() {
     let data = [
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem1.png",
         projectTitle: "Alumínio",
         projectSubtitle:
           ""
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem2.png",
         projectTitle: "Barra Chata",
         projectSubtitle:
           ""
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem3.png",
         projectTitle: "Bucha de Ferro",
         projectSubtitle:
           ""
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem4.png",
         projectTitle: "Broze",
         projectSubtitle:
           ""
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem5.png",
         projectTitle: "Cantoneira",
         projectSubtitle:
           ""
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem6.png",
         projectTitle: "Chapas",
         projectSubtitle:
           "Ferro Trefilado, Ferro Fundido, Ferro Mecânico, Latão."
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem7.png",
         projectTitle: "Tubos",
         projectSubtitle:
           "Espessura em MM- Peso Teórico (barra de 6 metros), Tubos Quadrados, Tubos Retangular."
       },
       {
-        pageLink: "project-details",
+        pageLink: "projects",
         img: "Imagem8.png",
         projectTitle: "Tecnil",
         projectSubtitle:
