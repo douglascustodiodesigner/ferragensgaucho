@@ -80,7 +80,7 @@ class MobileMenu extends Component{
                                 <div className="header-contact-info">
                                     <ul className="header-contact-info__list">
                                     <li><i className="ion-android-phone-portrait" /> <a href="tel://6533081593">(65) 3308-1593 </a></li>
-                                    <li><i className="ion-android-mail" /> <a href="mailto:contato@ferragensgaucho.com.br">info@yourdomain.com</a></li>
+                                    <li><i className="ion-android-mail" /> <a href="mailto:contato@ferragensgaucho.com.br">contato@ferragensgaucho.com.br</a></li>
                                     </ul>
                                 </div>
                                 </div>

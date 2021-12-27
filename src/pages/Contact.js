@@ -73,7 +73,6 @@ class Contact extends Component {
                         <span className="text">
                           <a href="tel:6533081593 ">(65) 3308-1593 </a>
                           <a href="tel:65996819194">(65) 9 9681 9194 - WhatsApp </a>
-                          <a href="tel:65992884775">(65) 9 9288 4775 – Gaúcho </a>
                         </span>
                       </li>
                       <li>
