@@ -68,7 +68,7 @@ class MobileMenu extends Component{
                                     <Link to={`${process.env.PUBLIC_URL}/projects`} >Produtos</Link>
                                     </li>
                                     <li className="menu-item-has-children">
-                                    <Link to={`${process.env.PUBLIC_URL}/services`}>Servicos</Link>
+                                    <Link to={`${process.env.PUBLIC_URL}/services`}>Serviços</Link>
                                     </li>
                                     <li className="menu-item-has-children">
                                     </li>

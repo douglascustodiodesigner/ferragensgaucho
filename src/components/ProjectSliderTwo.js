@@ -33,14 +33,14 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {img: 'Imagem1.png', serviceTitle: 'Alumínio', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem2.png', serviceTitle: 'Barra Chata', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem3.png', serviceTitle: 'Bucha de Ferro', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem4.png', serviceTitle: 'Bronze', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem5.png', serviceTitle: 'Contoneira', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem6.png', serviceTitle: 'Chapas', serviceExcerpt: 'Ferro Trefilado, Ferro Fundido, Ferro Mecânico, Latão.', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem7.png', serviceTitle: 'Tubos', serviceExcerpt: 'Espessura em MM- Peso Teórico (barra de 6 metros), Tubos Quadrados, Tubos Retangular.', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'Imagem8.png', serviceTitle: 'Tecnil', serviceExcerpt: '', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'Imagem1.png', serviceTitle: 'Alumínio', serviceExcerpt: '', serviceUrl: 'projects'},
+            {img: 'Imagem2.png', serviceTitle: 'Barra Chata', serviceExcerpt: '', serviceUrl: 'projects'},
+            {img: 'Imagem3.png', serviceTitle: 'Bucha de Ferro', serviceExcerpt: '', serviceUrl: 'projects'},
+            {img: 'Imagem4.png', serviceTitle: 'Bronze', serviceExcerpt: '', serviceUrl: 'projects'},
+            {img: 'Imagem5.png', serviceTitle: 'Contoneira', serviceExcerpt: '', serviceUrl: 'projects'},
+            {img: 'Imagem6.png', serviceTitle: 'Chapas', serviceExcerpt: 'Ferro Trefilado, Ferro Fundido, Ferro Mecânico, Latão.', serviceUrl: 'projects'},
+            {img: 'Imagem7.png', serviceTitle: 'Tubos', serviceExcerpt: 'Espessura em MM- Peso Teórico (barra de 6 metros), Tubos Quadrados, Tubos Retangulares.', serviceUrl: 'projects'},
+            {img: 'Imagem8.png', serviceTitle: 'Tecnil', serviceExcerpt: '', serviceUrl: 'projects'},
         ];
 
         let DataList = data.map((val, i)=>{
