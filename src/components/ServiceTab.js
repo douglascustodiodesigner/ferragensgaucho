@@ -21,9 +21,9 @@ class ServiceTabExample extends Component{
         /* service tab content */
         
         let serviceTabContentData = [
-            {bgUrl: "Imagem9.png", contentTitle: 'Oxicorte', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "Imagem10.png", contentTitle: 'Plasma', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
-            {bgUrl: "Imagem9.png", contentTitle: 'Corte e Dobra', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "Imagem9.png", contentTitle: 'Oxicorte', contentDesc: '', serviceLink: 'Services'},
+            {bgUrl: "Imagem10.png", contentTitle: 'Plasma', contentDesc: '', serviceLink: 'Services'},
+            {bgUrl: "Imagem9.png", contentTitle: 'Corte e Dobra', contentDesc: '', serviceLink: 'Services'},
         ];
 
         let serviceTabContentDatalist = serviceTabContentData.map((val, i)=>{
@@ -33,7 +33,7 @@ class ServiceTabExample extends Component{
                         <div className="service-tab__single-content">
                             <h3 className="service-tab__title">{val.contentTitle}</h3>
                             <p className="service-tab__text">{val.contentDesc}</p>
-                            <a href={`${process.env.PUBLIC_URL}/${val.serviceLink}`} className="see-more-link">SEE MORE</a>
+                            <a href={`${process.env.PUBLIC_URL}/${val.serviceLink}`} className="see-more-link">Saiba Mais</a>
                         </div>
                     </div>
                 </TabPanel>
