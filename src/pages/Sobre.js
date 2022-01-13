@@ -61,7 +61,7 @@ class Sobre extends Component {
                       <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
-                        videoId="O"
+                        videoId="3Bp9STp790Y"
                         onClose={() => this.setState({ isOpen: false })}
                       />
                       <button onClick={this.openModal}>
