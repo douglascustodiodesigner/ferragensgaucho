@@ -6,7 +6,7 @@ class HeroSliderTwo extends Component{
         const params = {
             slidesPerView : 1,
             loop: true,
-            speed: 1000,
+            speed: 2300,
             watchSlidesVisibility: true,
             effect: 'fade',
             navigation: {

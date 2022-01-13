@@ -149,7 +149,7 @@ class Project extends Component {
                   <ul className="page-pagination">
                     <li>
                       <a href="/projects">
-                        <i className="fa fa-angle-left" /> Prev
+                        <i className="fa fa-angle-left" /> Anterior
                       </a>
                     </li>
                     <li className="active">
@@ -157,7 +157,7 @@ class Project extends Component {
                     </li>
                     <li>
                       <a href="/projects">
-                        <i className="fa fa-angle-right" /> Next
+                        <i className="fa fa-angle-right" /> Próximo
                       </a>
                     </li>
                   </ul>

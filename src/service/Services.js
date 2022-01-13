@@ -84,12 +84,12 @@ class Services extends Component {
             <div className="row">
               <div className="col">
                 <div className="page-banner text-center">
-                  <h1>Service</h1>
+                  <h1>Serviço</h1>
                   <ul className="page-breadcrumb">
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li>Service</li>
+                    <li>Serviço</li>
                   </ul>
                 </div>
               </div>

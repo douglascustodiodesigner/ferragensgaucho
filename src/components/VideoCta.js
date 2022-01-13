@@ -25,7 +25,7 @@ class VideoCta extends Component{
                             <div className="video-cta-content">
                             <h4 className="video-cta-content__small-title">Sobre Nós</h4>
                             <h3 className="video-cta-content__title">Sobre Ferragens Gaucho</h3>
-                            <p className="video-cta-content__text">Fundada em julho de 2008, a Ferragens Gaúcho vem atuando no comercio varejista de ferragens e ferramentas, sendo a única empresa da cidade licenciada para fazer destinação final dos resíduos metálicos. Contando também com a compra e venda de sucatas diversas.</p>
+                            <p className="video-cta-content__text">Fundada em julho de 2008, a Ferragens Gaúcho vem atuando no comércio varejista de ferragens e ferramentas, sendo a única empresa da cidade licenciada para fazer destinação final dos resíduos metálicos. Contando também com a compra e venda de sucatas diversas.</p>
                             <a href={`${process.env.PUBLIC_URL}/about-us`} className="ht-btn ht-btn--round">Mais Sobre Nós</a>
                             </div>
                         </div>
