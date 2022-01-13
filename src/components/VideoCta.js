@@ -32,7 +32,7 @@ class VideoCta extends Component{
                         <div className="col-lg-5 offset-lg-1 col-md-6">
                             <div className="cta-video-image">
                             <div className="video-popup">
-                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='0' onClose={() => this.setState({isOpen: false})} />
+                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='3Bp9STp790Y' onClose={() => this.setState({isOpen: false})} />
                                 <button onClick={this.openModal}>
                                     <div className="cta-video-image__image">
                                         <img src="assets/img/backgrounds/video-cta.jpg" className="img-fluid" alt="" />
